@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-size: contain;
+    background-image: linear-gradient(45deg, #c300ff, black, black, rgb(0, 0, 0), black);
+    background-attachment: fixed;
+}
+.section0{
+    background-image: url("https://media.istockphoto.com/id/1212761279/vector/gold-music-notes-bacground.jpg?s=612x612&w=0&k=20&c=f090GwAplDVY1l1qKJnfxwj_96b2ey11Tlv_32qoXDI=");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+header{
+    width: 100%;
+    height: 40vh;
+    margin:0px auto 10vh;
+    padding-top: 30vh;
+    
+}
+header > h1{
+    width: 70%;
+    color: white;
+    text-shadow: 2px 2px 20px rgb(153, 0, 255);
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid rgb(220, 130, 238);
+    margin: auto;
+    font-size: 1.6em;
+    
+}
+header > nav{
+    width: 100%;
+    padding-top: 10px;
+    margin: 10vh auto 0px;
+    text-align: center;
+}
+header > nav > a{
+    background-color: rgb(0, 255, 0);
+    font-size: 1.8em;
+    color: rgb(38, 0, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid blueviolet;
+}
+.section1{
+    background-image: url("https://static4.depositphotos.com/1014511/356/i/450/depositphotos_3566139-stock-photo-old-sheet-music.jpg");
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0px auto;
+    box-shadow: inset 5px 5px 20px black;
+    padding-top: 200px;
+}
+.section1 > p{
+    padding: 10px;
+    width: 70%;
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.329);
+    margin: auto;
+}
+.section2{
+ width: 100%;
+ padding-top: 30px;
+ margin-bottom: 20px;
+}
+.section2 > p{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-weight:500;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 40px rgb(212, 0, 255);
+}
+.section3{
+    padding: 0px;
+    width: 100%;
+}
+.section3 > h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 30px rgb(0, 4, 255);
+    font-size: 1.6em;
+}
+.section3 > h2{
+    color: #c300ff;
+    text-shadow: 2px 2px 1px black;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: left;
+}
+.section3 > p{
+    width: 100%;
+}
+.section3 a{
+    width: 100%;
+    display: flex;
+}
+.section3 i{
+    color: rgb(174, 0, 255);
+    font-size: 3em;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+    margin: 10px auto;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+}
+footer > img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 10px auto;
+    margin-bottom: 10vh;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 50px blueviolet;
+}
