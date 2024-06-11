@@ -2,7 +2,7 @@
     margin:0px;
     padding: 0px;
 }
-body{
+body,html{
     background-size: contain;
     background-image: linear-gradient(45deg, #c300ff, black, black, rgb(0, 0, 0), black);
     background-attachment: fixed;
