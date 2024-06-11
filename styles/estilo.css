@@ -144,3 +144,16 @@ footer > img{
         transform: rotate3d(0, 1, 0, 360deg);
     }
 }
+@keyframes apresentation{
+    0%{
+        opacity: 0;
+        transform: translate(0px, 20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+h1, a, p, h2, i, img, .section0, .section1, .section2, .swection3{
+    animation: apresentation 3s ease forwards;
+}
